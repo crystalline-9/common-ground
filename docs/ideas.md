@@ -1,3 +1,5 @@
+---------------------------------------------------------------------------------------------------------------------------------------
+
 Oct 04 2026
 
 # Common Ground — Running Ideas
@@ -49,6 +51,8 @@ Make it clear that this is an evolving prototype. Invite people to look whenever
 **Why it matters:**
 **Questions / possible next steps:**
 **Status:** Unsorted / Exploring / Planned / In progress / Parked
+
+---------------------------------------------------------------------------------------------------------------------------------------
 
 Oct 13 2026
 
@@ -138,3 +142,7 @@ Prefer free, open, interoperable, and maintainable solutions wherever practical.
 **Common Ground should connect people to existing community knowledge, make that knowledge easier to access, and reduce unnecessary work for the organizations providing it.**
 
 The objective is not to replace every calendar, directory, or community initiative. It is to make useful information easier to find across them.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
