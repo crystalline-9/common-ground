@@ -130,7 +130,7 @@ export default function FindResources() {
             </button>
           </aside>
           <div className="results-area">
-            <MapPanel selectedId={detail?.id} />
+            <MapPanel resources={results} selectedId={detail?.id} />
             <div className="results-heading">
               <div>
                 <p className="eyebrow">

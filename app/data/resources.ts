@@ -5,6 +5,8 @@ export type Resource = {
   categories: string[];
   resourceType: string;
   address: string;
+  latitude?: number;
+  longitude?: number;
   distance: number;
   phone: string;
   website: string;
