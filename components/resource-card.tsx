@@ -1,4 +1,5 @@
 import type { Resource } from "@/app/data/resources";
+import { InteractiveMap } from "@/components/interactive-map";
 
 export function ResourceCard({
   resource,
@@ -99,36 +100,12 @@ export function MapPanel({
   resources: Resource[];
   selectedId?: string;
 }) {
+  void resources;
+  void selectedId;
+
   return (
-    <div
-      className="map-panel"
-      aria-label="Illustrative map showing sample resources"
-    >
-      <div className="map-label">Illustrative map</div>
-      <div className="map-grid" />
-      <div className="map-road road-one" />
-      <div className="map-road road-two" />
-      <div className="map-radius" />
-      <div className="map-pin home-pin">
-        <span>Home</span>
-      </div>
-      <div
-        className={`map-pin marker-one ${selectedId === "r1" ? "selected" : ""}`}
-      />
-      <div
-        className={`map-pin marker-two ${selectedId === "r3" ? "selected" : ""}`}
-      />
-      <div
-        className={`map-pin marker-three ${selectedId === "r6" ? "selected" : ""}`}
-      />
-      <div className="map-legend">
-        <span>
-          <i className="legend-home" /> Selected location
-        </span>
-        <span>
-          <i className="legend-resource" /> Resources
-        </span>
-      </div>
+    <div className="map-panel" aria-label="Interactive map">
+      <InteractiveMap />
     </div>
   );
 }
